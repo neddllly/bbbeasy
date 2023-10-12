@@ -5455,7 +5455,7 @@ __metadata:
     pm2: ^5.3.0
     prettier: ^2.8.8
     rc-select: ^14.5.2
-    rc-util: ^5.33.1
+    rc-util: ^5.38.0
     react: ^17.0.2
     react-color: ^2.19.3
     react-copy-to-clipboard: ^5.1.0
@@ -16009,7 +16009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rc-util@npm:^5.16.0, rc-util@npm:^5.17.0, rc-util@npm:^5.18.1, rc-util@npm:^5.2.0, rc-util@npm:^5.20.1, rc-util@npm:^5.21.2, rc-util@npm:^5.22.5, rc-util@npm:^5.25.2, rc-util@npm:^5.27.1, rc-util@npm:^5.28.0, rc-util@npm:^5.30.0, rc-util@npm:^5.32.0, rc-util@npm:^5.32.2, rc-util@npm:^5.33.1, rc-util@npm:^5.6.1":
+"rc-util@npm:^5.16.0, rc-util@npm:^5.17.0, rc-util@npm:^5.18.1, rc-util@npm:^5.2.0, rc-util@npm:^5.20.1, rc-util@npm:^5.21.2, rc-util@npm:^5.22.5, rc-util@npm:^5.25.2, rc-util@npm:^5.27.1, rc-util@npm:^5.28.0, rc-util@npm:^5.30.0, rc-util@npm:^5.32.0, rc-util@npm:^5.32.2, rc-util@npm:^5.6.1":
   version: 5.33.1
   resolution: "rc-util@npm:5.33.1"
   dependencies:
@@ -16019,6 +16019,19 @@ __metadata:
     react: ">=16.9.0"
     react-dom: ">=16.9.0"
   checksum: 5b99edb25e9348be33976c2b83bf1d9b52558824c25f36b5e88ba23a215df3bdeb51a79ca196bcf68f8f05cd9165f6b7fd24cf2d052efb47d4bb02a48b54db89
+  languageName: node
+  linkType: hard
+
+"rc-util@npm:^5.38.0":
+  version: 5.38.0
+  resolution: "rc-util@npm:5.38.0"
+  dependencies:
+    "@babel/runtime": ^7.18.3
+    react-is: ^18.2.0
+  peerDependencies:
+    react: ">=16.9.0"
+    react-dom: ">=16.9.0"
+  checksum: 97a3e1dd94e199c12e69eed1f69e9a9be39b383f2b0d9e1d52d6fcdf676e91e6499fa7be4c48f37b08b6500747f2dc41014f9be54351a39f23b3b5087360690c
   languageName: node
   linkType: hard
 
@@ -16317,7 +16330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^18.0.0":
+"react-is@npm:^18.0.0, react-is@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
